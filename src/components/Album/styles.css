@@ -1,0 +1,39 @@
+.album-main-container {
+    width: 100%;
+    height: 100vh;
+    padding: -5%;
+}
+
+.album-header {
+    color: white;
+    font-size: 36px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.album-content-container {
+    display: flex;
+    position:static;
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail-container {
+    width: 40%;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-left: 20%;
+    padding-bottom: 215px;
+}
+
+.thumbnail-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.gallery-container {
+    width: 60%;
+    position: fixed;
+    overflow: hidden;
+    margin-left: 50%;
+}

@@ -1,0 +1,10 @@
+.main{
+    width: 100%;
+    background-image: url("./assests/background.jpg");
+    background-size: cover;
+    padding-top: 5%;
+}
+
+body {
+    overflow: hidden;
+}
